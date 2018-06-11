@@ -1,0 +1,55 @@
+﻿#Table1 > th, td {
+    text-align: center;
+}
+
+.Table2 {
+    border-collapse: collapse;
+    margin-top:1em;
+}
+.Table2 td, th {
+    padding: 0.5em;
+    font-family:Calibri;
+    border-color:black;
+}
+
+#GrayRow{
+    background-color:gray;
+}
+.LightGrayRows{
+    background-color:lightgray;
+}
+#TableTwo{
+    color:transparent;
+}
+.ExtendedCells{
+    width:200px;
+}
+.AllExceptOne td, .AllExceptOne th{
+    width:7.5em;
+}
+
+#Table3{
+    border-collapse:collapse;
+    width:100vw;
+}
+#RowOne th{
+    border-bottom-width:0.25em;
+    background-color:dodgerblue;
+}
+div tr:nth-child(odd) {
+    background-color: #E0EEEE
+}
+div tr:nth-child(even) {
+    background-color: #528B8B
+}
+div td, div th{
+    border-color:white;
+}
+#TableHover{
+width:50vw;
+height:2em;
+border-collapse:collapse;
+}
+#TableHover tr:hover{
+    background-color:yellow;
+}
